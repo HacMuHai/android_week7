@@ -3,18 +3,6 @@ import { useState } from 'react';
 import { StyleSheet, Text, View, Image, TextInput, TouchableOpacity, FlatList, Pressable } from 'react-native';
 
 export default function App({navigation,route}) {
-    const arrTemp = [
-        { img: require('../../assets/donut_yellow 1.png') },
-        { img: require('../../assets/donut_yellow 1.png') },
-        { img: require('../../assets/donut_yellow 1.png') },
-        { img: require('../../assets/donut_yellow 1.png') },
-        { img: require('../../assets/donut_yellow 1.png') },
-        { img: require('../../assets/donut_yellow 1.png') },
-        { img: require('../../assets/donut_yellow 1.png') },
-        { img: require('../../assets/donut_yellow 1.png') },
-        { img: require('../../assets/donut_yellow 1.png') },
-
-    ]
     const donut=route.params
     const [count,setCount]=useState(1)
     return (
