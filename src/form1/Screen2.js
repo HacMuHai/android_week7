@@ -6,7 +6,6 @@ import { TextInput } from 'react-native';
 
 export default function Screen2({ navigation, route }) {
     const {user} = route.params
-    var arrays=[]
     var [arrJob,setArrJob] = useState([])
 
     function getJobs(){
